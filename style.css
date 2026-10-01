@@ -1,7 +1,12 @@
 @font-face {
-    font-family: ArsenicaTrial-Bold;
-    src: url(ArsenicaTrial-Bold.tff);
+    font-family: avenir;
+    src: url("font/Avenir.ttc");
 }
+@font-face {
+    font-family: ;
+    src: url();
+}
+
 header{
     color: #F4F3EF;
 }
@@ -60,4 +65,14 @@ margin: 20px;
     object-fit: cover;
 }
 
+h2{
+    font-family: avenir;
+}
+
+footer{
+    background-color: #8565D6;
+}
+p{
+    font-family: avenir;
+}
 
