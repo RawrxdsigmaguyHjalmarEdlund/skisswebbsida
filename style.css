@@ -1,16 +1,31 @@
 .hero {
     display: flex;
     flex-direction: row;
+    gap: 20px;
+    img{
+        max-width: 60vw;
+    }
 }
 body{
     width: 90vw;
 }
-img{
-    width: 70%;
-    height: 70%;
-}
-.indsidehero{
 
+.events {
+display: flex;
+flex-wrap: wrap;
+gap: 20px;
+margin: 20px;
 }
-.helaskiten{
+.events article {
+    flex: 400px;
+}
+.img{
+    width: 100%;
+    aspect-ratio: 3 / 2;
+}
+.events img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
