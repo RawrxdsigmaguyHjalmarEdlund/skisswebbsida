@@ -1,4 +1,6 @@
-.hero {
+
+    width: 100%;
+    aspect-ratio: 3 / 2;.hero {
     display: flex;
     flex-direction: row;
     gap: 20px;
@@ -19,11 +21,9 @@ margin: 20px;
 .events article {
     flex: 400px;
 }
-.img{
+.img {
     width: 100%;
     aspect-ratio: 3 / 2;
-}
-.events img {
     display: block;
     width: 100%;
     height: 100%;
