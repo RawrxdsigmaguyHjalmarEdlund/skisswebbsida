@@ -1,13 +1,42 @@
+@font-face {
+    font-family: ArsenicaTrial-Bold;
+    src: url(ArsenicaTrial-Bold.tff);
+}
+header{
+    color: #F4F3EF;
+}
+
+nav{
+ color: #F4F3EF;
+ display: flex;
+ align-items: center;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+nav li{
+padding: 10px;
+list-style: none;
+}
+
+.topsnopp{
+display: flex;
+justify-content: space-between;
+}
+
 .hero {
     display: flex;
     flex-direction: row;
     gap: 20px;
-    img{
+    background-color: #F4F3EF;
+img{
         max-width: 60vw;
-    }
+}
 }
 body{
     width: 90vw;
+    background-color: #211612;;
 }
 
 .events {
@@ -18,12 +47,17 @@ margin: 20px;
 }
 .events article {
     flex: 400px;
+    background-color: #F4F3EF;
 }
-.img {
+.img{
     width: 100%;
     aspect-ratio: 3 / 2;
+}
+.events img {
     display: block;
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
+
+
