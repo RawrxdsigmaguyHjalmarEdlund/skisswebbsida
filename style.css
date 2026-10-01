@@ -3,8 +3,8 @@
     src: url("font/Avenir.ttc");
 }
 @font-face {
-    font-family: ;
-    src: url();
+    font-family: ArsenicaTrial-Medium;
+    src: url("font/ArsenicaTrial-Medium.ttf");
 }
 
 header{
@@ -72,7 +72,10 @@ h2{
 footer{
     background-color: #8565D6;
 }
+.herotext{
+    font-family: ArsenicaTrial-Medium;
+}
+
 p{
     font-family: avenir;
 }
-
