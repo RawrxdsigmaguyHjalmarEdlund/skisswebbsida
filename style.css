@@ -81,19 +81,20 @@ h2{
 footer{
     background-color: #8565D6;
     list-style: none;
+    font-family: avenir;
 .loga{
 max-width: 10vw;
-display: block;
-width: 100%;
-height: 100%;
 object-fit: cover;
 }
 }
 .insidefooter{
     padding: 20px;
+    display: flex;
+    justify-content: space-between;
 }
 .adress{
     display: flex;
+    align-items: center;
 }
 .herotext{
     font-family: ArsenicaTrial-Medium;
@@ -104,4 +105,32 @@ p{
 }
 .underline{
     text-decoration: underline solid #8565D6;
+}
+footer li{
+    list-style: none;
+}
+.bold{
+    font-weight: bold;
+}
+.appar img{
+    max-width: 20px;
+    padding: 20px;
+}
+.bullshit{
+    display: flex;
+    justify-content: space-between;
+    max-width: 30vw;
+}
+.rightfoot img{
+    max-width: 10vw;
+    object-fit: cover;
+}
+.rad{
+    display: flex;
+    justify-content: space-between;
+}
+.rightfoot{
+    display: flex;
+    max-width: 50vw;
+    flex-direction: column;
 }
