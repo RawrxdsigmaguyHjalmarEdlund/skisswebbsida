@@ -1,12 +1,18 @@
 @font-face {
     font-family: avenir;
-    src: url("font/Avenir.ttc");
+    src: url("font/Avenir\ Medium.ttf");
 }
 @font-face {
     font-family: ArsenicaTrial-Medium;
     src: url("font/ArsenicaTrial-Medium.ttf");
 }
-
+@font-face {
+    font-family: avenirfat;
+    src: url(font/Avenir\ Heavy.ttf);
+}
+h2{
+    font-family: avenirfat;
+}
 header{
     display: flex;
     flex-direction: column;
@@ -55,7 +61,6 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    font-weight: bold;
     flex: 1 1 100%; 
 h2{
     font-size: xx-large;
@@ -65,7 +70,14 @@ h2{
     display: flex;
     justify-content: space-around;
 }
-.events {
+.Allevents{
+display: flex;
+color: #F4F3EF;
+padding-left: 20px;
+padding-top: 20px;
+font-family: ArsenicaTrial-Medium;
+}
+.events{
 
 display: flex;
 flex-wrap: wrap;
@@ -143,20 +155,39 @@ footer li{
 .rad{
     display: flex;
     justify-content: space-between;
+    padding-left: 20px;
 }
 .rightfoot{
     display: flex;
     max-width: 50vw;
     flex-direction: column;
+    flex: 1 1 100%;
 }
 .email{
+    font-weight: bold;
     background-color: #F4F3EF;
     text-decoration-color: #8565D6;
+    color: #8565D6;
+    flex: 1 1 100%;
+    padding: 5px;
+}
+.Subscribeute{
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
 }
 .Subscribe{
+    font-weight: bold;
     background-color: #211612;
     text-decoration: underline solid;
     color: #F4F3EF;
+    flex: 1 1 100%;
+    padding: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.text{
+    padding-left: 20px;
 }
 .knapp1text{
     text-decoration: underline solid #8565D6;
@@ -176,8 +207,12 @@ justify-content: center;
 background-color: #8565D6;
 flex: 1 1 100%;
 }
-.bror{
-display: flex;
-flex-direction: column;
-justify-content: space-between;
+.gunnar{
+    padding-bottom: 3.5px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.eventsinfo{
+    padding-left: 20px;
+    padding-right: 20px;
 }
